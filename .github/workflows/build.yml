@@ -32,7 +32,6 @@ jobs:
     - name: Add Android platform and build APK
       run: |
         cd black-mamba-apk/black-mamba-apk
-        npx cap init --force
         npx cap add android
         npx cap sync android
         cd android
